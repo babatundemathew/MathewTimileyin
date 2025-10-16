@@ -1,0 +1,99 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <title>Registration</title>
+		 <link rel="icon" type="image/x-icon" href="timmylogo.png">
+        <style>
+        body{
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+line-height:1.6;
+background:#e29a9a;
+color:#020202;
+}
+header{
+background:#e29a9a;
+color:#fff;
+padding:20px;
+text-align:center;	
+}
+.navbar{
+background::#003060;
+position:relative;
+}
+.navbar.menu-icon{
+	display:none;
+	font-size:28px;
+	color:white;
+	padding:10px 20px;
+	cursor:pointer;
+}
+.nav-links{
+	display:flex;
+	justify-content:center;
+	list-style:none;
+	margin:0;
+	padding:10px 0;
+}
+.nav-links li{
+	margin:0 15px;
+}
+.nav-links a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+section{
+	padding:20px;
+	background:white;
+	margin:10px;
+	border-radius:5px;
+}
+footer{
+	background:#004080;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+.form-container{
+	display:flex;
+
+}
+</style>
+    </head>
+    <body>
+		<nav class="navbar">
+<ul class="nav-links">
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us </a></li>
+<li><a href="login.html">Log in</a></li>
+<li><a href="Getstarted.html">Get Started</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</nav>
+<header>
+	<img src="timmylogo.png" alt="logo" height="100" width="100">
+		<h2>Member Registration</h2>
+</header>
+<section>
+      <div class="form-container">	
+		<form action="register.php" method="POST">
+			<ul>
+			<li><input type="text" name="full_name" placeholder="Full name"required></li>
+			<li><input type="email" name="email" placeholder="Email" required></li>
+			<li><input type="password" name="password" placeholder="Password" required></li>
+			<li><input type="text" name="phone" placeholder="Phone" required></li>
+			<li><input type="password" name="confirm_password" placeholder="Confirm Password" required></li>
+			<li><input type="text" name="address" placeholder="Address" required></li>
+			<li><input type="password" name="Date of Birth" placeholder="Date of Birth" required></li>
+			<li><input type="text" name="Occupation" placeholder="Occupation" required></li>
+			<button type="submit">Register</button>
+		</form>
+	  </div>
+</section>
+		<br>
+		<p style="color: blue;">Already have an account? <a href="login.html">Login here</a></p>
+	  </div>
+    </body>
+	</html>

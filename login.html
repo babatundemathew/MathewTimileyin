@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+	 <link rel="icon" type="image/x-icon" href="timmylogo.png">
+	<style>
+        body{
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+line-height:1.6;
+background:#e29a9a;
+color:#020202;
+
+
+}
+header{
+background:#e29a9a;
+color:#fff;
+padding:20px;
+text-align:center;	
+}
+.navbar{
+background::#003060;
+position:relative;
+}
+.navbar.menu-icon{
+	display:none;
+	font-size:28px;
+	color:white;
+	padding:10px 20px;
+	cursor:pointer;
+}
+.nav-links{
+	display:flex;
+	justify-content:center;
+	list-style:none;
+	margin:0;
+	padding:10px 0;
+}
+.nav-links li{
+	margin:0 15px;
+}
+.nav-links a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+section{
+	background:white;
+	color: black;
+	text-align: left;
+	display: flex;
+
+}
+footer{
+	background:#e29a9a;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+.formcontainer{
+	display: flex;
+	b
+
+}
+</style>
+</head>
+<body>
+		<nav class="navbar">
+<ul class="nav-links">
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us </a></li>
+<li><a href="#">Log in</a></li>
+<li><a href="Getstarted.html">Get Started</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</nav>
+<header>
+	<img src="timmylogo.png" alt="logo" height="100" width="100">
+		<h2>LOGIN</h2>
+    <h3>WELCOME BACK</h3>
+    <p><h4>THANKS FOR CHOOSING US</h4></p>
+    <section>
+     <div class="formcontainer">	
+		<form action="register.php" method="POST">
+			<input type="email" name="email" placeholder="Email" required>
+			<input type="password" name="password" placeholder="Password" required>
+			
+			<button type="submit">Register</button>
+		</form>
+	 </div>
+    </section>
+</body>
+</html>
